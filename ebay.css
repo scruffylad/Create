@@ -1,0 +1,59 @@
+/* How to style your eBay shop using CSS by http://www.kidsontalks.com. This code is
+totally free, why not check out the guide on my blog. Steal away, you can even sell it on
+as there are no graphics involved.*/
+
+/* -------- Control Page Width -------- */
+.pagecontainer
+{
+width:1024px;
+margin:10px auto 10px auto;
+}
+
+#sidelist { list-style-image: url(http://images.3btech.net/ct/green-check.png); }
+
+*{
+	margin:0px;
+}
+html {
+	height:100%;
+	width:100%;
+}
+tr.grad {
+	margin: 0;
+    background: #026AA6;
+   	background-image: linear-gradient(bottom, rgb(2,106,166) 0%, rgb(115,186,216) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(2,106,166) 0%, rgb(115,186,216) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(2,106,166) 0%, rgb(115,186,216) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(2,106,166) 0%, rgb(115,186,216) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(2,106,166) 0%, rgb(115,186,216) 100%);
+    overflow: hidden;
+	font-family:Arial;
+	-webkit-font-smoothing: antialiased;
+}
+.text {
+	font-size:3em;
+	font-weight:bold;
+	color:#EFF6F9;
+	position:relative;
+	padding:8px;
+	letter-spacing:0px;
+	text-shadow: -1.5px -1.5px 2px #3a3a3a;
+}
+.text:before, .text:after {
+    content: attr(title);
+    color: rgba(255,255,255,1);
+    position: absolute;
+    padding:8px;
+    letter-spacing:-4px;
+}
+.text:before {
+    top: 1px;
+    left: 1px;
+    opacity:.12;
+}
+.text:after {
+    top: 2px;
+    left: 2px;
+    opacity:.12;
+}
+/* -------- End -------- */ 
